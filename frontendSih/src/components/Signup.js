@@ -86,7 +86,7 @@ const Signup = () => {
           <h4 className="display-4 my-5">Registration Form</h4>
           <p className="lead">Demo Mode (change Aadhaar Number and username)</p>
           <form>
-            <div className="row">
+            {/* <div className="row">
               <div className="col">
                 <div className="form-group">
                   <label>First Name</label>
@@ -163,7 +163,7 @@ const Signup = () => {
                   </select>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="form-group">
               <label>Aadhaar Number</label>
               <input

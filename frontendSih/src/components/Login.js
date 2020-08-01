@@ -4,8 +4,8 @@ import { Redirect } from "react-router-dom";
 
 export default function Login() {
   const [values, setValues] = useState({
-    username: "nishchay",
-    password: "nishchay",
+    username: "",
+    password: "",
     error: "",
     loading: false,
     didRedirect: false,
