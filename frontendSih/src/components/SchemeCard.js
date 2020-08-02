@@ -8,7 +8,7 @@ export default function SchemeCard(props) {
     t("Education"),
     t("Agriculture"),
     t("Employment"),
-    t("Health&FamilyWelfare"),
+    t("Health & Family Welfare"),
     t("Housing"),
   ];
   return (

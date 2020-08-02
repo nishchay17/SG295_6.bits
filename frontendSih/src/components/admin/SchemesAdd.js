@@ -58,13 +58,15 @@ const SchemesAdd = () => {
       alert("All fields are required, except URL");
     } else
       createScheme(token, scheme).then((data) => {
+        console.log(data);
         if (data?.error) {
           setError(true);
         } else {
-          setError("");
-          setSuccess(true);
+          if (data.status === "true") setSuccess(true);
+          else setError("Duplicate Scheme");
           setScheme({
             ...scheme,
+            createdScheme: name,
             name: "",
             type: "",
             eligibilityIncome: "",
@@ -75,7 +77,6 @@ const SchemesAdd = () => {
             description: "",
             url: "",
             gender: "0",
-            createdScheme: data.name,
           });
         }
       });
@@ -88,6 +89,16 @@ const SchemesAdd = () => {
         style={{ display: createdScheme ? "" : "none" }}
       >
         {createdScheme} created !
+      </div>
+    );
+  };
+  const errorMessage = () => {
+    return (
+      <div
+        className="alert alert-danger mt-3"
+        style={{ display: error ? "" : "none" }}
+      >
+        {error}
       </div>
     );
   };
@@ -232,6 +243,7 @@ const SchemesAdd = () => {
 
   return (
     <div>
+      {errorMessage()}
       {successMessage()}
       {form()}
     </div>
