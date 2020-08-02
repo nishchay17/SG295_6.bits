@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import { signup } from "./helper/auth";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Signup = () => {
+  const { t } = useTranslation();
+
   const [values, setValues] = useState({
     password: "test",
     username: "test",
@@ -83,7 +86,7 @@ const Signup = () => {
     return (
       <div className="container my-4 mx-auto row">
         <div className="col-md-6 offset-md-3 col-12">
-          <h4 className="display-4 my-5">Registration Form</h4>
+          <h4 className="display-4 my-5">{t("RegistrationForm.1")}</h4>
           <p className="lead">Demo Mode (change Aadhaar Number and username)</p>
           <form>
             {/* <div className="row">
@@ -165,7 +168,7 @@ const Signup = () => {
               </div>
             </div> */}
             <div className="form-group">
-              <label>Aadhaar Number</label>
+              <label>{t("AadhaarNumber.1")}</label>
               <input
                 className="form-control"
                 onChange={handleChange("aadhaarNumber")}
@@ -175,7 +178,7 @@ const Signup = () => {
             </div>
 
             <div className="form-group">
-              <label>Income</label>
+              <label>{t("Income.1")}</label>
               <input
                 className="form-control"
                 onChange={handleChange("income")}
@@ -186,7 +189,7 @@ const Signup = () => {
             <div className="row">
               <div className="col">
                 <div className="form-group">
-                  <label>Username</label>
+                  <label> {t("Username.1")}</label>
                   <input
                     className="form-control"
                     onChange={handleChange("username")}
@@ -197,7 +200,7 @@ const Signup = () => {
               </div>
               <div className="col">
                 <div className="form-group">
-                  <label>Password</label>
+                  <label>{t("Password.1")}</label>
                   <input
                     className="form-control"
                     onChange={handleChange("password")}
@@ -211,7 +214,7 @@ const Signup = () => {
               onClick={onSubmit}
               className="btn btn-outline-success btn-block"
             >
-              Register
+              {t("Register.1")}
             </button>
           </form>
         </div>

@@ -1,0 +1,296 @@
+{
+  "About": {
+    "1": "About"
+  },
+  "Learnmore": {
+    "1": "Learn more"
+  },
+  "TheSikkimstateschemeportalisaimedatasinglepointofaccesstoalltheschemesofferedbytheGovernmentofSikkimthroughitsconstituentdepartments.Weprovideaccesstocurrent,complete,andaccurateinformationrelatedtoalltheschemesprovidedbythegovernment.Wehereprovideaplatformtothecitizenswheretheycanviewalltheschemesofferedbythegovernmentandthoseforwhichtheyareeligible.IntimesofCOVID-19pandemic,webringforthahassle-freeprocesstoapplyfortheschemes(underwhoseeligibilitycriteriayoufall)whilestayingsafeathome.": {
+    "1": "The ‘Sikkim state scheme portal’ is aimed at a single point of access to all the schemes offered by the Government of Sikkim through its constituent departments. We provide access to current, complete, and accurate information related to all the schemes provided by the government.We here provide a platform to the citizens where they can view all the schemes offered by the government and those for which they are eligible. In times of COVID-19 pandemic, we bring forth a hassle-free process to apply for the schemes (under whose eligibility criteria you fall) while staying safe at home."
+  },
+  "Howtouse": {
+    "1": "How to use"
+  },
+  "AllSchemes": {
+    "1": "All Schemes"
+  },
+  "Home": {
+    "1": "Home"
+  },
+  "Signup": {
+    "1": "Signup"
+  },
+  "RegistrationForm": {
+    "1": "Registration Form"
+  },
+  "FirstName": {
+    "1": "First Name"
+  },
+  "LastName": {
+    "1": "Last Name"
+  },
+  "Caste": {
+    "1": "Caste"
+  },
+  "MoblieNumber": {
+    "1": "Mobile Number"
+  },
+  "AadhaarNumber": {
+    "1": "Aadhaar Number"
+  },
+  "Age": {
+    "1": "Age"
+  },
+  "Income": {
+    "1": "Income"
+  },
+  "EligibilityGender": {
+    "1": "Eligibility Gender"
+  },
+  "Username": {
+    "1": "Username"
+  },
+  "Password": {
+    "1": "Password"
+  },
+  "Register": {
+    "1": "Register"
+  },
+  "Signin": {
+    "1": "Signin"
+  },
+  "Login": {
+    "1": "Login"
+  },
+  "Hello": {
+    "1": "Hello"
+  },
+  "Admin": {
+    "1": "Admin"
+  },
+  "Information": {
+    "1": "Information"
+  },
+  "Area": {
+    "1": "Area"
+  },
+  "Scheme": {
+    "1": "Scheme"
+  },
+  "ViewSchemes": {
+    "1": "View Schemes"
+  },
+  "ManageSchemes": {
+    "1": "Manage Schemes"
+  },
+  "Createschemes": {
+    "1": "Create Schemes"
+  },
+  "Adminnavigation": {
+    "1": "Admin navigation"
+  },
+  "Name": {
+    "1": "Name"
+  },
+  "Email": {
+    "1": "Email"
+  },
+  "SignOut": {
+    "1": "Sign out"
+  },
+  "Dashboard": {
+    "1": "Dashboard"
+  },
+  "Type": {
+    "1": "Type"
+  },
+  "EligibilityAgeLowerBound": {
+    "1": "Eligibility Age Lower Bound"
+  },
+  "EligibilityAgeUpperBound": {
+    "1": "Eligibility Age Upper Bound"
+  },
+  "Eligibility Income": {
+    "1": "Eligibility Income"
+  },
+  "URL": {
+    "1": "URL"
+  },
+  "Description": {
+    "1": "Description"
+  },
+  "Gen": {
+    "1": "Gen"
+  },
+  "OBC": {
+    "1": "OBC"
+  },
+  "ST/SC": {
+    "1": "ST/SC"
+  },
+  "ST/SCandOBC": {
+    "1": "ST/SC and OBC"
+  },
+  "AllCastes": {
+    "1": "All Castes"
+  },
+  "Male": {
+    "1": "Male"
+  },
+  "Female": {
+    "1": "Female"
+  },
+  "Trans": {
+    "1": "Trans"
+  },
+  "All": {
+    "1": "All"
+  },
+  "Others": {
+    "1": "Others"
+  },
+  "Education": {
+    "1": "Education"
+  },
+  "Agriculture": {
+    "1": "Agriculture"
+  },
+  "Employment": {
+    "1": "Employment"
+  },
+  "Health&FamilyWelfare": {
+    "1": "Health & Family Welfare"
+  },
+  "Housing": {
+    "1": "Housing"
+  },
+  "AddScheme": {
+    "1": "Add Scheme"
+  },
+  "AllofyourSchemes": {
+    "1": "All of your Schemes"
+  },
+  "AllApplications": {
+    "1": "All Applications"
+  },
+  "Applicationstatus": {
+    "1": "Application status"
+  },
+  "currentstatus": {
+    "1": "current status"
+  },
+  "pending": {
+    "1": "pending"
+  },
+  "rejected": {
+    "1": "rejected"
+  },
+  "done": {
+    "1": "done"
+  },
+  "validate": {
+    "1": "validate"
+  },
+  "ReviewthisApplication": {
+    "1": "Review this Application"
+  },
+  "userdata": {
+    "1": "user data"
+  },
+  "schemedata": {
+    "1": "scheme data"
+  },
+  "submit": {
+    "1": "submit"
+  },
+  "PM Shram Yogi Maan-dhan": {
+    "1": "PM Shram Yogi Maan-dhan"
+  },
+  "This scheme is meant for workers in unorganised sector such as maids, drivers and so on whose monthly income does not exceed Rs 15,000. Under the scheme, pension of Rs 3000 per month will be given to eligible subscribers.": {
+    "1": "This scheme is meant for workers in unorganised sector such as maids, drivers and so on whose monthly income does not exceed Rs 15,000. Under the scheme, pension of Rs 3000 per month will be given to eligible subscribers."
+  },
+  "Pragati Scholarship Scheme": {
+    "1": "Pragati Scholarship Scheme"
+  },
+  "Under this scholarship scheme, amount of 30000 is disbursed among meritorious girl student for pursuing technical education.Two girls per family are eligible to apply for this scholarship.": {
+    "1": "Under this scholarship scheme, amount of 30000 is disbursed among meritorious girl student for pursuing technical education.Two girls per family are eligible to apply for this scholarship."
+  },
+  "For Gender": {
+    "1": "For Gender"
+  },
+  "The Mukhya Mantri Sishu Suraksha Yojana Avam Sutkeri Shayog Yojana": {
+    "1": "The Mukhya Mantri Sishu Suraksha Yojana Avam Sutkeri Shayog Yojana"
+  },
+  "The Mukhya Mantri Sishu Suraksha Yojana Avam Sutkeri Shayog Yojana has been specifically designed to ensure that every pregnant women of BPL family during delivery receives a cash assistance of Rs.3000/- to enable her to access better health care, good nutrition and also take good care of the new born.": {
+    "1": "The Mukhya Mantri Sishu Suraksha Yojana Avam Sutkeri Shayog Yojana has been specifically designed to ensure that every pregnant women of BPL family during delivery receives a cash assistance of Rs.3000/- to enable her to access better health care, good nutrition and also take good care of the new born."
+  },
+  "Pradhan Mantri Ujjwala Yojana": {
+    "1": "Pradhan Mantri Ujjwala Yojana"
+  },
+  "The Pradhan Mantri Ujjwala Yojana was launched for providing clean fuel to women below the poverty line.": {
+    "1": "The Pradhan Mantri Ujjwala Yojana was launched for providing clean fuel to women below the poverty line."
+  },
+  "Mukhya Mantri Jeevan Raksha Kosh": {
+    "1": "Mukhya Mantri Jeevan Raksha Kosh"
+  },
+  "In this scheme all excluding government servants and their dependent are entitled to cash/cashless treatment benefit up to Rs.2.00 lakhs maximum depending on the category of illness and BPL patient are entitled up to Rs.1.5 lakhs. In order to make treatment of referred patients easy and quick, a number of good hospitals in the country have been empanelled so that our patient do not have to spend time in the corridor of Government hospitals.": {
+    "1": "In this scheme all excluding government servants and their dependent are entitled to cash/cashless treatment benefit up to Rs.2.00 lakhs maximum depending on the category of illness and BPL patient are entitled up to Rs.1.5 lakhs. In order to make treatment of referred patients easy and quick, a number of good hospitals in the country have been empanelled so that our patient do not have to spend time in the corridor of Government hospitals."
+  },
+  "PM Garib Kalyan Yojana": {
+    "1": "PM Garib Kalyan Yojana"
+  },
+  "The PM Garib Kalyan Package will help the Wage-earners who are earning below Rs. 15,000 per month. Under this scheme everyone will get 5 kg of wheat/rice for free of whatever they are already getting.": {
+    "1": "The PM Garib Kalyan Package will help the Wage-earners who are earning below Rs. 15,000 per month. Under this scheme everyone will get 5 kg of wheat/rice for free of whatever they are already getting."
+  },
+  "AICTE Saksham Scholarship": {
+    "1": "AICTE Saksham Scholarship"
+  },
+  "The scholarship is only open for students with disability. The level of disability should be less than 40%.": {
+    "1": "The scholarship is only open for students with disability. The level of disability should be less than 40%."
+  },
+  "Manodhairya Scheme": {
+    "1": "Manodhairya Scheme"
+  },
+  "This scheme is for rape and acid attack victims. Financial assitance of upto 10 lakhs is provided to them.": {
+    "1": "This scheme is for rape and acid attack victims. Financial assitance of upto 10 lakhs is provided to them."
+  },
+  "Chief Minister’s Free Scholarship Scheme": {
+    "1": "Chief Minister’s Free Scholarship Scheme"
+  },
+  "The State Government launched the Chief Minister’s Free Scholarship Scheme with the aim of providing free scholarship to meritorious and needy students. The scholarship is granted annually to a candidate from the BPL category.The scholarship aims to cover course fees, hostel/accommodation charges, books, stationaries and to & from travelling charges once a year from the institute to the home country": {
+    "1": "The State Government launched the Chief Minister’s Free Scholarship Scheme with the aim of providing free scholarship to meritorious and needy students. The scholarship is granted annually to a candidate from the BPL category.The scholarship aims to cover course fees, hostel/accommodation charges, books, stationaries and to & from travelling charges once a year from the institute to the home country"
+  },
+  "Post Matric Scholarship for EBC Student": {
+    "1": "Post Matric Scholarship for EBC Student"
+  },
+  "Service for availing Scholarship for students belonging to communities including ST, SC, and OBC (Central) with annual family income below or equal to 1 Lakh": {
+    "1": "Service for availing Scholarship for students belonging to communities including ST, SC, and OBC (Central) with annual family income below or equal to 1 Lakh"
+  },
+  "Antyodaya Anna Yojana": {
+    "1": "Antyodaya Anna Yojana"
+  },
+  "Under the scheme, 1 crore of the BPL( below poverty line) families covered under the targeted public distribution system are identified. Issue of ration cards following the recognition of Antyodaya families ,unique quota cards to be recognised and (Antyodaya Ration Card) must be given to the Antyodaya families": {
+    "1": "Under the scheme, 1 crore of the BPL( below poverty line) families covered under the targeted public distribution system are identified. Issue of ration cards following the recognition of Antyodaya families ,unique quota cards to be recognised and (Antyodaya Ration Card) must be given to the Antyodaya families"
+  },
+  "Update": {
+    "1": "Update"
+  },
+  "Delete": {
+    "1": "Delete"
+  },
+  "scheme has been updated": {
+    "1": "scheme has been updated"
+  },
+  "created": {
+    "1": "created"
+  },
+  "Applied": {
+    "1": "Applied"
+  },
+  "Error, try again": {
+    "1": "Error, try again"
+  },
+  "New account was created successfully.Please, log in here": {
+    "1": "New account was created successfully.Please, log in here"
+  }
+}

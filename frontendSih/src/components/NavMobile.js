@@ -2,6 +2,8 @@ import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import { signout, isAuthenticated, isAdmin } from "./helper/auth";
 import { Fragment } from "react";
+import { useTranslation } from "react-i18next";
+import i18next from "../i18n";
 
 const currentTab = (history, path) => {
   if (history.location.pathname === path) {
@@ -12,18 +14,42 @@ const currentTab = (history, path) => {
 };
 
 const Nav = ({ history }) => {
+  const { t } = useTranslation();
+  const handleClick = (lang) => {
+    i18next.changeLanguage(lang);
+  };
   return (
     <div>
       <ul className="nav nav-tabs d-none d-flex d-md-none fixed-top bg-white">
         <li className="navbar-brand ml-2">Scheme App</li>
-        <li className="nav-item ml-auto my-auto">
-          <Link style={currentTab(history, "/")} className="nav-link" to="/">
-            Home
-          </Link>
-        </li>
+        <div className="btn-group ml-auto mr-3">
+          <button
+            className="btn btn-primary btn-sm"
+            onClick={() => handleClick("en")}
+          >
+            English
+          </button>
+          <button
+            className="btn btn-primary btn-sm"
+            onClick={() => handleClick("hi")}
+          >
+            {t("Hindi")}
+          </button>
+          <button
+            className="btn btn-primary btn-sm"
+            onClick={() => handleClick("ne")}
+          >
+            {t("Nepali")}
+          </button>
+        </div>
       </ul>
 
       <ul className="nav nav-tabs d-none d-flex d-md-none fixed-bottom bg-white">
+        <li className="nav-item my-auto">
+          <Link style={currentTab(history, "/")} className="nav-link" to="/">
+            {t("Home.1")}
+          </Link>
+        </li>
         {isAuthenticated() &&
         !isAdmin() && ( //&& isAuthenticated().user.role === 0
             <li className="nav-item">
@@ -32,7 +58,7 @@ const Nav = ({ history }) => {
                 className="nav-link"
                 to="/apply"
               >
-                Apply
+                {t("Apply.1")}
               </Link>
             </li>
           )}
@@ -45,7 +71,7 @@ const Nav = ({ history }) => {
                 className="nav-link"
                 to="/admin/dashboard"
               >
-                Dashboard
+                {t("Dashboard.1")}
               </Link>
             </li>
           )}
@@ -58,7 +84,7 @@ const Nav = ({ history }) => {
                 className="nav-link"
                 to="/register"
               >
-                Signup
+                {t("Signup.1")}
               </Link>
             </li>
             <li className="nav-item">
@@ -67,7 +93,7 @@ const Nav = ({ history }) => {
                 className="nav-link"
                 to="/login"
               >
-                Signin
+                {t("Signin.1")}
               </Link>
             </li>
           </Fragment>
@@ -79,7 +105,7 @@ const Nav = ({ history }) => {
             className="nav-link"
             to="/about"
           >
-            About
+            {t("About.1")}
           </Link>
         </li>
 
@@ -93,7 +119,7 @@ const Nav = ({ history }) => {
                 });
               }}
             >
-              Sign Out
+              {t("SignOut.1")}
             </span>
           </li>
         )}

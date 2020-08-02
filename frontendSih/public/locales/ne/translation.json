@@ -1,0 +1,296 @@
+{
+  "About": {
+    "1": "बारेमा"
+  },
+  "TheSikkimstateschemeportalisaimedatasinglepointofaccesstoalltheschemesofferedbytheGovernmentofSikkimthroughitsconstituentdepartments.Weprovideaccesstocurrent,complete,andaccurateinformationrelatedtoalltheschemesprovidedbythegovernment.Wehereprovideaplatformtothecitizenswheretheycanviewalltheschemesofferedbythegovernmentandthoseforwhichtheyareeligible.IntimesofCOVID-19pandemic,webringforthahassle-freeprocesstoapplyfortheschemes(underwhoseeligibilitycriteriayoufall)whilestayingsafeathome.": {
+    "1": "'सिक्किम राज्य योजना पोर्टल' भनेको यसका घटक विभागहरू मार्फत सिक्किम सरकारले प्रस्ताव गरेको सबै योजनाहरूको एकल बिन्दुमा पहुँच हो। हामी सरकारले प्रदान गरेका सबै योजनाहरू सम्बन्धी हालको, पूर्ण र सही जानकारीमा पहुँच प्रदान गर्दछौं। हामी यहाँ नागरिकहरूलाई एउटा मञ्च प्रदान गर्दछौं जहाँ उनीहरूले सरकारले प्रस्ताव गरेका सबै योजनाहरू हेर्न सक्दछन् र जसका लागि तिनीहरू योग्य छन्। COVID-19 महामारीको समयमा, हामी घरमा सुरक्षित रहँदा योजनाहरूको लागि (जसको योग्यता मापदण्ड अन्तर्गत तपाइँ पतन हुन्छ) आवेदन दिनका लागि कुनै समस्या-मुक्त प्रक्रिया ल्याउँछौं।"
+  },
+  "Howtouse": {
+    "1": "कसरी प्रयोग गर्ने"
+  },
+  "AllSchemes": {
+    "1": "सबै योजनाहरु"
+  },
+  "Home": {
+    "1": "होम"
+  },
+  "Signup": {
+    "1": "साइन अप"
+  },
+  "RegistrationForm": {
+    "1": "दर्ता फारम"
+  },
+  "FirstName": {
+    "1": "पहिलो नाम"
+  },
+  "LastName": {
+    "1": "थर"
+  },
+  "Caste": {
+    "1": "जाति"
+  },
+  "MoblieNumber": {
+    "1": "मोबाइल नम्बर"
+  },
+  "AadhaarNumber": {
+    "1": "आधार नम्बर"
+  },
+  "Age": {
+    "1": "उमेर"
+  },
+  "Income": {
+    "1": "आय"
+  },
+  "EligibilityGender": {
+    "1": "योग्यता लि .्ग"
+  },
+  "Username": {
+    "1": "प्रयोगकर्ता नाम"
+  },
+  "Password": {
+    "1": "पासवर्ड"
+  },
+  "Register": {
+    "1": "रजिस्टर करें"
+  },
+  "Signin": {
+    "1": "साइन इन"
+  },
+  "Login": {
+    "1": "लग - इन"
+  },
+  "Hello": {
+    "1": "नमस्कार"
+  },
+  "Admin": {
+    "1": "प्रशासक"
+  },
+  "Information": {
+    "1": "जानकारी"
+  },
+  "Area": {
+    "1": "क्षेत्र"
+  },
+  "Scheme": {
+    "1": "योजना"
+  },
+  "ViewSchemes": {
+    "1": "योजनाहरू हेर्नुहोस्"
+  },
+  "ManageSchemes": {
+    "1": "योजनाहरू प्रबन्ध गर्नुहोस्"
+  },
+  "Createschemes": {
+    "1": "योजनाहरू सिर्जना गर्नुहोस्"
+  },
+  "Adminnavigation": {
+    "1": "प्रशासन नेभिगेसन"
+  },
+  "Name": {
+    "1": "नाम"
+  },
+  "Email": {
+    "1": "ईमेल"
+  },
+  "Signout": {
+    "1": "साइन आउट गर्नुहोस्"
+  },
+  "Dashboard": {
+    "1": "ड्यासबोर्ड"
+  },
+  "Type": {
+    "1": "प्रकार"
+  },
+  "EligibilityAgeLowerBound": {
+    "1": "योग्यता आयु तल्लो सीमा"
+  },
+  "EligibilityAgeUpperBound": {
+    "1": "योग्यता उमेर माथिल्लो सीमा"
+  },
+  "EligibilityIncome": {
+    "1": "योग्यता आय"
+  },
+  "URL": {
+    "1": "यूआरएल"
+  },
+  "Description": {
+    "1": "वर्णन"
+  },
+  "Gen": {
+    "1": "सामान्य"
+  },
+  "OBC": {
+    "1": "अन्य पछाडि वर्ग"
+  },
+  "ST/SC": {
+    "1": "तालिका कास्ट / तालिका जनजाति"
+  },
+  "SC/STandOBC": {
+    "1": "तालिका कास्ट / तालिका जनजाति   र अन्य पछाडि वर्ग "
+  },
+  "Allcastes": {
+    "1": "सबै जात"
+  },
+  "Male": {
+    "1": "नर"
+  },
+  "Female": {
+    "1": "महिला"
+  },
+  "Trans": {
+    "1": "ट्रान्सजेंडर"
+  },
+  "All": {
+    "1": "सबै"
+  },
+  "Others": {
+    "1": "अन्य"
+  },
+  "Education": {
+    "1": "शिक्षा"
+  },
+  "Agriculture": {
+    "1": "कृषि"
+  },
+  "Employment": {
+    "1": "रोजगार"
+  },
+  "Health&FamilyWelfare": {
+    "1": "स्वास्थ्य र परिवार कल्याण"
+  },
+  "Housing": {
+    "1": "आवास"
+  },
+  "AddScheme": {
+    "1": "योजना थप्नुहोस्"
+  },
+  "AllofyourSchemes": {
+    "1": "तपाईंको सबै योजनाहरू"
+  },
+  "AllApplications": {
+    "1": "सबै अनुप्रयोगहरू"
+  },
+  "Applicationstatus": {
+    "1": "अनुप्रयोग स्थिति"
+  },
+  "currentstatus": {
+    "1": "वर्तमान स्थिति"
+  },
+  "pending": {
+    "1": "पेन्डि"
+  },
+  "rejected": {
+    "1": "अस्वीकृत"
+  },
+  "done": {
+    "1": "सकियो"
+  },
+  "Learnmore": {
+    "1": "थप सिक"
+  },
+  "Validate": {
+    "1": "मान्य गर्नुहोस्"
+  },
+  "ReviewthisApplication": {
+    "1": "यो अनुप्रयोग समीक्षा गर्नुहोस्"
+  },
+  "userdata": {
+    "1": "प्रयोगकर्ता डाटा"
+  },
+  "schemedata": {
+    "1": "योजना डाटा"
+  },
+  "submit": {
+    "1": "बुझाउनुहोस्"
+  },
+  "PM Shram Yogi Maan-dhan": {
+    "1": "पम श्रम योगी मा-धन"
+  },
+  "This scheme is meant for workers in unorganised sector such as maids, drivers and so on whose monthly income does not exceed Rs 15,000. Under the scheme, pension of Rs 3000 per month will be given to eligible subscribers.": {
+    "1": "यो योजना असंगठित क्षेत्रका कामदारहरूको लागि हो जसमा दासी, चालक र अन्य मासिक आय १ 15,००० भन्दा बढी हुँदैन। यस योजना अन्तर्गत, योग्य ग्राहकहरुलाई प्रति महिना 3000 पेन्सन दिइनेछ।"
+  },
+  "Pragati Scholarship Scheme": {
+    "1": "प्रगति छात्रवृत्ति योजना"
+  },
+  "Under this scholarship scheme, amount of 30000 is disbursed among meritorious girl student for pursuing technical education.Two girls per family are eligible to apply for this scholarship.": {
+    "1": "यस छात्रवृत्ति योजना अन्तर्गत technical०००० को रकम प्राविधिक शिक्षा लिनका लागि मेधावी केटी छात्रामा वितरित गरिएको छ। प्रत्येक परिवारमा दुई जना केटीहरू यस छात्रवृत्तिमा आवेदन दिन योग्य छन्।"
+  },
+  "For Gender": {
+    "1": "लि .्ग को लागी"
+  },
+  "The Mukhya Mantri Sishu Suraksha Yojana Avam Sutkeri Shayog Yojana": {
+    "1": "मुख्यमन्त्री बाल सुरक्षा योजना र सुत्तकेरी सहयोग योजना"
+  },
+  "The Mukhya Mantri Sishu Suraksha Yojana Avam Sutkeri Shayog Yojana has been specifically designed to ensure that every pregnant women of BPL family during delivery receives a cash assistance of Rs.3000/- to enable her to access better health care, good nutrition and also take good care of the new born.": {
+    "1": "मुखिया शिशु सुरक्षा योजना अवम सुतकेयी शोज योजना विशेष गरी डिजाइन गरिएको छ कि प्रसवको क्रममा बीपीएल परिवारका प्रत्येक गर्भवती महिलाले health००० / - नगद सहयोग प्राप्त गर्दछ ताकि उनीहरुलाई अझ राम्रो स्वास्थ्य देखभाल, राम्रो पोषण र राम्रो पहुँच प्राप्त गर्न सकोस्। नयाँ जन्मको हेरचाह।"
+  },
+  "Pradhan Mantri Ujjwala Yojana": {
+    "1": "प्रधान मंत्री उज्ज्वला योजना"
+  },
+  "The Pradhan Mantri Ujjwala Yojana was launched for providing clean fuel to women below the poverty line.": {
+    "1": "गरीबीको रेखामुनि रहेका महिलाहरूलाई स्वच्छ ईन्धन उपलब्ध गराउन प्रधानमन्त्री उज्ज्वला योजना सञ्चालन गरिएको हो।"
+  },
+  "Mukhya Mantri Jeevan Raksha Kosh": {
+    "1": "मुख्यमंत्री जीवनरक्षा कोश"
+  },
+  "In this scheme all excluding government servants and their dependent are entitled to cash/cashless treatment benefit up to Rs.2.00 lakhs maximum depending on the category of illness and BPL patient are entitled up to Rs.1.5 lakhs. In order to make treatment of referred patients easy and quick, a number of good hospitals in the country have been empanelled so that our patient do not have to spend time in the corridor of Government hospitals.": {
+    "1": "यस योजनामा सरकारी कर्मचारीहरू र उनीहरूको आश्रित बाहेक सबैलाई बिरामीको कोटीमा निर्भर अधिकतम रु २.०० लाखसम्म नगद / नगदहित उपचार लाभका हकदार छन् र बीपीएल बिरामी १..5 लाख रुपैयाँ सम्मका हकदार छन्। रेफर गरिएको बिरामीहरूको उपचार सहज र छिटो बनाउनको लागि देशका धेरै राम्रा अस्पतालहरू खाली पारिएका छन् ताकि हाम्रो बिरामीलाई सरकारी अस्पतालको कोरिडोरमा समय खर्च गर्नु पर्दैन।"
+  },
+  "PM Garib Kalyan Yojana": {
+    "1": "प्रधानमन्त्री गरीब कल्याण योजना"
+  },
+  "The PM Garib Kalyan Package will help the Wage-earners who are earning below Rs. 15,000 per month. Under this scheme everyone will get 5 kg of wheat/rice for free of whatever they are already getting.": {
+    "1": "प्रधानमन्त्री कल्याण कल्याण प्याकेजले रु  । १,000,०प्रति महिना यस योजना अन्तर्गत सबैले 5 kg किलोग्राम गहुँ / चामल पाउनेछन् जेसुकै पहिले नै पाइरहेका जे भए पनि सित्तैमा।"
+  },
+  "AICTE Saksham Scholarship": {
+    "1": "अखिल भारतीय प्राविधिक शिक्षा साक्षात्कार छात्रवृत्ति काउन्सिल"
+  },
+  "The scholarship is only open for students with disability. The level of disability should be less than 40%.": {
+    "1": "छात्रवृत्ति असक्षम विद्यार्थीहरूको लागि मात्र खुला छ। अशक्तता स्तर  40% भन्दा कम हुनुपर्दछ।"
+  },
+  "Manodhairya Scheme": {
+    "1": "मनोधैर्य योजना"
+  },
+  "This scheme is for rape and acid attack victims. Financial assitance of upto 10 lakhs is provided to them": {
+    "1": "यो योजना बलात्कार र एसिड आक्रमण पीडितहरूका लागि हो। १० लाखसम्मको आर्थिक सहयोग उनीहरूलाई दिइन्छ।"
+  },
+  "Chief Minister’s Free Scholarship Scheme": {
+    "1": "मुख्यमंत्रीको नि: शुल्क छात्रवृत्ति योजना"
+  },
+  "The State Government launched the Chief Minister’s Free Scholarship Scheme with the aim of providing free scholarship to meritorious and needy students. The scholarship is granted annually to a candidate from the BPL category.The scholarship aims to cover course fees, hostel/accommodation charges, books, stationaries and to & from travelling charges once a year from the institute to the home country": {
+    "1": "राज्य सरकारले मेधावी र अभावग्रस्त विद्यार्थीहरूलाई निःशुल्क छात्रवृत्ति प्रदान गर्ने उद्देश्यले मुख्यमंत्रीको नि: शुल्क छात्रवृत्ति योजना शुरू  गर्‍यो। छात्रवृत्ति बीपीएल वर्गका उम्मेद्वारलाई प्रत्येक वर्ष प्रदान गरिन्छ। छात्रवृत्ति को उद्देश्य कोर्स शुल्क, छात्रावास / आवास शुल्क, पुस्तक, स्टेशनरीहरु र संस्थान बाट एक वर्ष स्वदेशी देश सम्म एक पटक यात्रा शुल्क को कवर गर्नु छ।"
+  },
+  "Post Matric Scholarship for EBC Student": {
+    "1": "ईबीसी विद्यार्थीको लागि पोस्ट म्याट्रिक छात्रवृत्ति"
+  },
+  "Service for availing Scholarship for students belonging to communities including ST, SC, and OBC (Central) with annual family income below or equal to 1 Lakh": {
+    "1": "एसटी, एससी, र ओबीसी (केन्द्रीय) सहितको समुदायसँग सम्बन्धित विद्यार्थीहरूको लागि छात्रवृत्ति प्राप्त गर्न वार्षिक वार्षिक आम्दानी तल १ लाख भन्दा तल वा सो भन्दा बढीको लागि सेवा।"
+  },
+  "Antyodaya Anna Yojana": {
+    "1": "अन्त्योदय अन्ना योजना"
+  },
+  "Under the scheme, 1 crore of the BPL( below poverty line) families covered under the targeted public distribution system are identified. Issue of ration cards following the recognition of Antyodaya families ,unique quota cards to be recognised and (Antyodaya Ration Card) must be given to the Antyodaya families": {
+    "1": "यस योजना अन्तर्गत लक्षित सार्वजनिक वितरण प्रणाली अन्तर्गत बीपीएल (गरीबी रेखा मुनि) को १ करोड परिवार पहिचान गरीएको छ। अन्त्योदय परिवारको मान्यता पछि रासन कार्ड जारी गर्ने, अद्वितीय कोटा कार्डलाई मान्यता दिइनु पर्छ र (अन्त्योदय राशन कार्ड) अन्त्योदय परिवारलाई दिनु पर्छ।"
+  },
+  "Update": {
+    "1": "अद्यावधिक गर्नुहोस्"
+  },
+  "Delete": {
+    "1": "मेटाउन"
+  },
+  "scheme has been updated": {
+    "1": "योजना अद्यावधिक गरिएको छ"
+  },
+  "created": {
+    "1": "सिर्जना गरियो"
+  },
+  "Applied": {
+    "1": "लागू गरिएको"
+  },
+  "Error, try again": {
+    "1": "त्रुटि, फेरि प्रयास गर्नुहोस्"
+  },
+  "New account was created successfully.Please, log in here": {
+    "1": "नयाँ खाता सफलतापूर्वक सिर्जना गरिएको थियो। कृपया, यहाँ लग ईन गर्नुहोस्"
+  }
+}

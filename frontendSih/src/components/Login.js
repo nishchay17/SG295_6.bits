@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { signin, authenticate, isAuthenticated } from "./helper/auth";
 import { Redirect } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function Login() {
+  const { t } = useTranslation();
   const [values, setValues] = useState({
     username: "",
     password: "",
@@ -45,7 +47,9 @@ export default function Login() {
   const form = () => {
     return (
       <div className="container row mx-auto mb-5">
-        <h2 className="my-5 col-md-12 col-12 text-center display-4">Login</h2>
+        <h2 className="my-5 col-md-12 col-12 text-center display-4">
+          {t("Login.1")}
+        </h2>
         <p className="my-2 col-md-6 offset-md-3 col-12 text-center lead">
           Demo Login, to login as a normal user use: <br />
           username : nishchay2 <br />
@@ -53,7 +57,7 @@ export default function Login() {
         </p>
         <form className="col-md-4 offset-md-4 col-12">
           <div class="form-group">
-            <label>Username</label>
+            <label>{t("Username.1")}</label>
             <input
               type="text"
               class="form-control"
@@ -62,7 +66,7 @@ export default function Login() {
             />
           </div>
           <div class="form-group">
-            <label>Password</label>
+            <label> {t("Password.1")} </label>
             <input
               type="password"
               class="form-control"
@@ -71,7 +75,7 @@ export default function Login() {
             />
           </div>
           <button onClick={submit} class="btn btn-outline-success ">
-            Login
+            {t("Login.1")}
           </button>
         </form>
       </div>

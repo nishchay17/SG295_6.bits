@@ -1,10 +1,13 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function About() {
+  const { t } = useTranslation();
+
   return (
     <div className="m-5 row">
       <div>
-        <h1 className="col-12 col-md-8 offset-md-2 mb-4">About</h1>
+        <h1 className="col-12 col-md-8 offset-md-2 mb-4">{t("Home.1")}</h1>
         <p className="col-md-9 offset-md-2 col-12">
           The ‘Sikkim state scheme portal’ is aimed at a single point of access
           to all the schemes offered by the Government of Sikkim through its
