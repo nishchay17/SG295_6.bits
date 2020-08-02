@@ -22,7 +22,7 @@ const options = {
   excludeCacheFor: ["cimode"], // languages to not persist (cookie, localStorage)
 
   // optional expire and domain for set cookie
-  cookieMinutes: 10,
+  cookieMinutes: 100,
   cookieDomain: "myDomain",
 
   // optional htmlTag with lang attribute, the default is:

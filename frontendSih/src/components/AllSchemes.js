@@ -17,7 +17,7 @@ const AllSchemes = () => {
   return (
     <div className="text-center border-top py-3">
       <img src={logoSikkim} className="img-fluid mt-4" alt="Sikkim logo"></img>
-      <h1 className="display-4 my-2">{t("AllSchemes.1")}</h1>
+      <h1 className="display-4 my-2">{t("All Schemes")}</h1>
       <div className="container mx-auto">
         <div className="row justify-content-around">
           {dataa.length &&

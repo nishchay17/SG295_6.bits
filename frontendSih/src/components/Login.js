@@ -48,7 +48,7 @@ export default function Login() {
     return (
       <div className="container row mx-auto mb-5">
         <h2 className="my-5 col-md-12 col-12 text-center display-4">
-          {t("Login.1")}
+          {t("Login")}
         </h2>
         <p className="my-2 col-md-6 offset-md-3 col-12 text-center lead">
           Demo Login, to login as a normal user use: <br />
@@ -57,7 +57,7 @@ export default function Login() {
         </p>
         <form className="col-md-4 offset-md-4 col-12">
           <div class="form-group">
-            <label>{t("Username.1")}</label>
+            <label>{t("Username")}</label>
             <input
               type="text"
               class="form-control"
@@ -66,7 +66,7 @@ export default function Login() {
             />
           </div>
           <div class="form-group">
-            <label> {t("Password.1")} </label>
+            <label> {t("Password")} </label>
             <input
               type="password"
               class="form-control"
@@ -75,7 +75,7 @@ export default function Login() {
             />
           </div>
           <button onClick={submit} class="btn btn-outline-success ">
-            {t("Login.1")}
+            {t("Login")}
           </button>
         </form>
       </div>

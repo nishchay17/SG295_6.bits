@@ -23,7 +23,7 @@ const Nav = ({ history }) => {
       <ul className="nav nav-tabs d-none d-md-flex d-lg-flex">
         <li className="nav-item" style={{ border: "balck 1px solid" }}>
           <Link style={currentTab(history, "/")} className="nav-link" to="/">
-            {t("Home.1")}
+            {t("Home")}
           </Link>
         </li>
 
@@ -35,7 +35,7 @@ const Nav = ({ history }) => {
                 className="nav-link"
                 to="/apply"
               >
-                {t("Apply.1")}
+                {t("Apply")}
               </Link>
             </li>
           )}
@@ -48,7 +48,7 @@ const Nav = ({ history }) => {
                 className="nav-link"
                 to="/admin/dashboard"
               >
-                {t("Dashboard.1")}
+                {t("Dashboard")}
               </Link>
             </li>
           )}
@@ -61,7 +61,7 @@ const Nav = ({ history }) => {
                 className="nav-link"
                 to="/register"
               >
-                {t("Signup.1")}
+                {t("Signup")}
               </Link>
             </li>
             <li className="nav-item">
@@ -70,7 +70,7 @@ const Nav = ({ history }) => {
                 className="nav-link"
                 to="/login"
               >
-                {t("Signin.1")}
+                {t("Signin")}
               </Link>
             </li>
           </Fragment>
@@ -82,7 +82,7 @@ const Nav = ({ history }) => {
             className="nav-link"
             to="/about"
           >
-            {t("About.1")}
+            {t("About")}
           </Link>
         </li>
 
@@ -96,7 +96,7 @@ const Nav = ({ history }) => {
                 });
               }}
             >
-              {t("SignOut.1")}
+              {t("Sign Out")}
             </span>
           </li>
         )}

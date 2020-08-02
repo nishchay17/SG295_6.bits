@@ -10,7 +10,10 @@ import AdminRoute from "./components/helper/AdminRoutes";
 import AdminDashboard from "./components/admin/AdminDashboard";
 import SchemesAdd from "./components/admin/SchemesAdd";
 import Scheme from "./components/Scheme";
+import AllSchemesAdmin from "./components/admin/AllSchemesAdmin";
 import HowTo from "./components/HowTo";
+import SchemesUpdate from "./components/admin/SchemesUpdate";
+
 import "./App.css";
 import NavMobile from "./components/NavMobile";
 
@@ -28,6 +31,12 @@ function App() {
       <Route path="/scheme/:id" exact component={Scheme} />
       <AdminRoute path="/admin/dashboard" exact component={AdminDashboard} />
       <AdminRoute path="/admin/scheme/new" exact component={SchemesAdd} />
+      <AdminRoute path="/admin/scheme/all" exact component={AllSchemesAdmin} />
+      <AdminRoute
+        path="/admin/scheme/update/:id"
+        exact
+        component={SchemesUpdate}
+      />
       {/* <Footer /> */}
       <NavMobile />
     </Router>

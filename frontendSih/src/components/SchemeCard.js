@@ -5,11 +5,11 @@ import { useTranslation } from "react-i18next";
 export default function SchemeCard(props) {
   const { t } = useTranslation();
   const type = [
-    t("Education.1"),
-    t("Agriculture.1"),
-    t("Employment.1"),
-    t("Health&FamilyWelfare.1"),
-    t("Housing.1"),
+    t("Education"),
+    t("Agriculture"),
+    t("Employment"),
+    t("Health&FamilyWelfare"),
+    t("Housing"),
   ];
   return (
     <div
@@ -17,11 +17,11 @@ export default function SchemeCard(props) {
       style={{ backgroundColor: "#f5f5f5" }}
     >
       <div className="card-body">
-        <h5 className="card-title">{props.data.name}</h5>
+        <h5 className="card-title">{t(props.data.name)}</h5>
         <h6 className="card-subtitle mb-2 text-muted">
           {type[props.data.type % type.length]}
         </h6>
-        <p className="card-text">{props.data.description}</p>
+        <p className="card-text">{t(props.data.description)}</p>
         <div className="card-title">
           <Link
             className="btn btn-outline-success"

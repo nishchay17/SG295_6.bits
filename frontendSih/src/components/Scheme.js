@@ -1,18 +1,31 @@
 import React, { useEffect, useState } from "react";
 import { GetScheme } from "./helper/scheme";
-import { isAuthenticated } from "./helper/auth";
-
-const types = [
-  "Education",
-  "Agriculture",
-  "Employment",
-  "Health & Family Welfare",
-  "Housing",
-];
-const genders = ["Male", "Female", "Trans", "All Gender", "other"];
-const castes = ["Gen", "OBC", "ST/SC", "ST/SC and OBC", "All castes"];
+import { useTranslation } from "react-i18next";
 
 export default function Scheme({ match }) {
+  const { t } = useTranslation();
+
+  const types = [
+    t("Education"),
+    t("Agriculture"),
+    t("Employment"),
+    t("Health&FamilyWelfare"),
+    t("Housing"),
+  ];
+  const genders = [
+    t("Male"),
+    t("Female"),
+    t("Trans"),
+    t("All Gender"),
+    t("other"),
+  ];
+  const castes = [
+    t("Gen"),
+    t("OBC"),
+    t("ST/SC"),
+    t("ST/SC and OBC"),
+    t("All Castes"),
+  ];
   const [scheme, setScheme] = useState({
     name: "",
     type: "",
@@ -66,26 +79,28 @@ export default function Scheme({ match }) {
         style={{ backgroundColor: "#bef7f7" }}
       >
         <div className="card-body">
-          <h5 className="card-title">{name}</h5>
-          <p className="card-text">{description}</p>
+          <h5 className="card-title">{t(name)}</h5>
+          <p className="card-text">{t(description)}</p>
         </div>
         <ul className="list-group list-group-flush">
           <li className="list-group-item">
-            Type: {types[type % types.length]}
+            {t("Type")}: {types[type % types.length]}
           </li>
           <li className="list-group-item">
-            Age: {eligibilityAgeLowerBound} - {eligibilityAgeUpperBound}
+            {t("Age")}: {eligibilityAgeLowerBound} - {eligibilityAgeUpperBound}
           </li>
           <li className="list-group-item">
-            Eligibility Income: {eligibilityIncome}
+            {t("Eligibility Income")}: {eligibilityIncome}
           </li>
           <li className="list-group-item">
-            Eligibility Caste- {castes[eligibilityCaste % castes.length]}
+            {t("Eligibility Caste")}- {castes[eligibilityCaste % castes.length]}
           </li>
           <li className="list-group-item">
-            Eligibility Gender- {genders[gender % genders.length]}
+            {t("Eligibility Gender")}- {genders[gender % genders.length]}
           </li>
-          <li className="list-group-item">URL- {url}</li>
+          <li className="list-group-item">
+            {t("URL")}- {url}
+          </li>
         </ul>
       </div>
     );
@@ -93,7 +108,7 @@ export default function Scheme({ match }) {
 
   return (
     <div className="container">
-      <h1 className="m-4">Scheme Details</h1>
+      <h1 className="m-4">{t("Scheme Details")}</h1>
       {card()}
     </div>
   );

@@ -86,7 +86,7 @@ const Signup = () => {
     return (
       <div className="container my-4 mx-auto row">
         <div className="col-md-6 offset-md-3 col-12">
-          <h4 className="display-4 my-5">{t("RegistrationForm.1")}</h4>
+          <h4 className="display-4 my-5">{t("Registration Form")}</h4>
           <p className="lead">Demo Mode (change Aadhaar Number and username)</p>
           <form>
             {/* <div className="row">
@@ -168,7 +168,7 @@ const Signup = () => {
               </div>
             </div> */}
             <div className="form-group">
-              <label>{t("AadhaarNumber.1")}</label>
+              <label>{t("Aadhaar Number")}</label>
               <input
                 className="form-control"
                 onChange={handleChange("aadhaarNumber")}
@@ -178,7 +178,7 @@ const Signup = () => {
             </div>
 
             <div className="form-group">
-              <label>{t("Income.1")}</label>
+              <label>{t("Income")}</label>
               <input
                 className="form-control"
                 onChange={handleChange("income")}
@@ -189,7 +189,7 @@ const Signup = () => {
             <div className="row">
               <div className="col">
                 <div className="form-group">
-                  <label> {t("Username.1")}</label>
+                  <label> {t("Username")}</label>
                   <input
                     className="form-control"
                     onChange={handleChange("username")}
@@ -200,7 +200,7 @@ const Signup = () => {
               </div>
               <div className="col">
                 <div className="form-group">
-                  <label>{t("Password.1")}</label>
+                  <label>{t("Password")}</label>
                   <input
                     className="form-control"
                     onChange={handleChange("password")}
@@ -214,7 +214,7 @@ const Signup = () => {
               onClick={onSubmit}
               className="btn btn-outline-success btn-block"
             >
-              {t("Register.1")}
+              {t("Register")}
             </button>
           </form>
         </div>
