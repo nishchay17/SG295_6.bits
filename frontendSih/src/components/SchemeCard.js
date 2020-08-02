@@ -27,7 +27,7 @@ export default function SchemeCard(props) {
             className="btn btn-outline-success"
             to={`/scheme/${props.data._id}`}
           >
-            <span className="">{t("Learnmore.1")}</span>
+            <span className="">{t("Learn more")}</span>
           </Link>
         </div>
       </div>

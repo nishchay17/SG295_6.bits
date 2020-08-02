@@ -19,16 +19,33 @@ SchemeRouter.route("/")
       .catch((err) => next(err));
   })
   .post(authenticate.verifyUser, authenticate.verifyAdmin, (req, res, next) => {
-    Scheme.create(req.body)
-      .then(
-        (scheme) => {
-          console.log("Scheme Created ", scheme);
+    Scheme.find({
+      type: req.body.type,
+      eligibilityIncome: req.body.eligibilityIncome,
+      eligibilityCaste: req.body.eligibilityCaste,
+      gender: req.body.gender,
+      eligibilityAgeLowerBound: req.body.eligibilityAgeLowerBound,
+    })
+      .then((scheme) => {
+        console.log(scheme);
+        if (scheme.length) {
           res.statusCode = 200;
           res.setHeader("Content-Type", "application/json");
-          res.json(scheme);
-        },
-        (err) => next(err)
-      )
+          res.json({ status: "false" });
+        } else {
+          Scheme.create(req.body)
+            .then(
+              (scheme) => {
+                console.log("Scheme Created ", scheme);
+                res.statusCode = 200;
+                res.setHeader("Content-Type", "application/json");
+                res.json({ status: "true" });
+              },
+              (err) => next(err)
+            )
+            .catch((err) => next(err));
+        }
+      })
       .catch((err) => next(err));
   })
   .put((req, res, next) => {

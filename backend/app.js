@@ -58,6 +58,7 @@ app.use(passport.session());
 app.use("/", indexRouter);
 app.use("/schemes", SchemeRouter);
 app.use("/users", usersRouter);
+app.use("/apply", ApplyRouter);
 
 const auth = (req, res, next) => {
   if (!req.user) {
