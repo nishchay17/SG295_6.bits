@@ -2,6 +2,25 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function AdminDashboard() {
+  const dd = () => {
+    return (
+      <div>
+        <div style={{ backgroundColor: "#2ecc71" }}>
+          <ul className="nav nav-tabs mx-auto">
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                style={{ color: "black" }}
+                to="/admin/dashboard"
+              >
+                Admin Area
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    );
+  };
   const adminLeftSide = () => {
     return (
       <div>
@@ -43,6 +62,7 @@ export default function AdminDashboard() {
   return (
     <div>
       <div>
+        {dd()}
         {adminLeftSide()}
         <h1 className="text-center pt-4">Hello Admin</h1>
       </div>

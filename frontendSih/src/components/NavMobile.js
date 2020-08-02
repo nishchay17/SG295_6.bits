@@ -20,11 +20,11 @@ const Nav = ({ history }) => {
   };
   return (
     <div>
-      <ul className="nav nav-tabs d-none d-flex d-md-none fixed-top bg-white">
+      <ul className="nav nav-tabs d-none d-flex d-md-none fixed-top bg-white border">
         <li className="navbar-brand ml-2">Scheme App</li>
-        <div className="btn-group ml-auto mr-3">
+        <div className="btn-group ml-auto mr-3 border">
           <button
-            className="btn btn-primary btn-sm"
+            className="btn btn-primary btn-sm "
             onClick={() => handleClick("en")}
           >
             English
@@ -33,26 +33,29 @@ const Nav = ({ history }) => {
             className="btn btn-primary btn-sm"
             onClick={() => handleClick("hi")}
           >
-            {t("Hindi")}
+            हिन्दी
           </button>
           <button
             className="btn btn-primary btn-sm"
             onClick={() => handleClick("ne")}
           >
-            {t("Nepali")}
+            नेपाली
           </button>
         </div>
       </ul>
 
-      <ul className="nav nav-tabs d-none d-flex d-md-none fixed-bottom bg-white">
-        <li className="nav-item my-auto">
+      <ul
+        className="nav nav-tabs d-none d-flex d-md-none fixed-bottom bg-white"
+        style={{ border: "black 2px solid" }}
+      >
+        <li className="border nav-item my-auto">
           <Link style={currentTab(history, "/")} className="nav-link" to="/">
             {t("Home")}
           </Link>
         </li>
         {isAuthenticated() &&
         !isAdmin() && ( //&& isAuthenticated().user.role === 0
-            <li className="nav-item">
+            <li className="border nav-item">
               <Link
                 style={currentTab(history, "/apply")}
                 className="nav-link"
@@ -65,7 +68,7 @@ const Nav = ({ history }) => {
 
         {isAuthenticated() &&
         isAdmin() && ( //&& isAuthenticated().user.role === 1
-            <li className="nav-item">
+            <li className="nav-item border">
               <Link
                 style={currentTab(history, "/admin/dashboard")}
                 className="nav-link"
@@ -78,7 +81,7 @@ const Nav = ({ history }) => {
 
         {!isAuthenticated() && (
           <Fragment>
-            <li className="nav-item">
+            <li className="nav-item border">
               <Link
                 style={currentTab(history, "/register")}
                 className="nav-link"
@@ -87,7 +90,7 @@ const Nav = ({ history }) => {
                 {t("Signup")}
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item border">
               <Link
                 style={currentTab(history, "/login")}
                 className="nav-link"
@@ -99,7 +102,7 @@ const Nav = ({ history }) => {
           </Fragment>
         )}
 
-        <li className="nav-item">
+        <li className="nav-item border">
           <Link
             style={currentTab(history, "/about")}
             className="nav-link"
@@ -110,7 +113,7 @@ const Nav = ({ history }) => {
         </li>
 
         {isAuthenticated() && (
-          <li className="nav-item">
+          <li className="nav-item border">
             <span
               className="nav-link text-danger"
               onClick={() => {
