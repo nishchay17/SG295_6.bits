@@ -30,7 +30,7 @@ function App() {
       <Nav />
       <NavMobileTop />
       <Route path="/" exact component={Carousel} />
-      {/* <Route path="/" exact component={HowTo} /> */}
+      <Route path="/helpdesk" exact component={HowTo} />
       <Route path="/" exact component={AllSchemes} />
       <Route path="/about" exact component={About} />
       <Route path="/login" exact component={login} />

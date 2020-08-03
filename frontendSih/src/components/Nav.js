@@ -26,6 +26,15 @@ const Nav = ({ history }) => {
             {t("Home")}
           </Link>
         </li>
+        <li className="nav-item" style={{ border: "balck 1px solid" }}>
+          <Link
+            style={currentTab(history, "/helpdesk")}
+            className="nav-link"
+            to="/helpdesk"
+          >
+            {t("Help Desk")}
+          </Link>
+        </li>
 
         {isAuthenticated() &&
         !isAdmin() && ( //&& isAuthenticated().user.role === 0

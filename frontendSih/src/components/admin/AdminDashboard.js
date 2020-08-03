@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import LineDemo from "./ChartDummy";
 import BarChart from "./BarChart";
 import PieChart from "./PieChart";
+import MapHeat from "./MapHeat";
 import PieChartCaste from "./PieChartCaste";
 
 export default function AdminDashboard() {
@@ -98,12 +99,19 @@ export default function AdminDashboard() {
         </div>
         <div className="container my-5">
           <div className="row">
-            <div className="col-12 col-md-6 p-3">
+            <div className="col-12 col-md-12 p-3">
+              <MapHeat
+                style={{
+                  height: window.innerHeight / 2,
+                  width: window.innerWidth / 2,
+                }}
+              />
+            </div>
+            <div className="col-12 col-md-12 p-3">
               <h5 className="alert alert-danger">Alert Area</h5>
               <div className="h6">Least Applied District: District 5</div>
               <div className="h6">Most Applied District: District 4</div>
             </div>
-            <div className="col-12 col-md-6 p-3">Map area</div>
           </div>
         </div>
       </div>
