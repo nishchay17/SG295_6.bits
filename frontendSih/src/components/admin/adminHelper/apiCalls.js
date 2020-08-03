@@ -129,3 +129,18 @@ export const ChangeApplicationState = (token, id, state) => {
     })
     .catch((err) => console.log(err));
 };
+
+export const GetUser = (token) => {
+  return fetch(`${API}/users/`, {
+    method: "GET",
+    headers: {
+      accept: "application/json",
+      "Content-type": "application/json",
+      Authorization: `Bearer ${token}`,
+    },
+  })
+    .then((response) => {
+      return response.json();
+    })
+    .catch((err) => console.log(err));
+};

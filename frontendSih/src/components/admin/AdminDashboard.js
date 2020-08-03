@@ -5,8 +5,29 @@ import BarChart from "./BarChart";
 import PieChart from "./PieChart";
 import MapHeat from "./MapHeat";
 import PieChartCaste from "./PieChartCaste";
-
+import { GetUser } from "./adminHelper/apiCalls";
+import { isAuthenticated } from "../helper/auth";
+const token = isAuthenticated();
+let age = 0;
 export default function AdminDashboard() {
+  const [num, setNum] = useState(0);
+  const [male, setMale] = useState(0);
+  const [female, setFemale] = useState(0);
+  const [trans, setTrans] = useState(0);
+  const [Age, setAge] = useState(0);
+  useEffect(() => {
+    GetUser(token)
+      .then((res) => {
+        setNum(res.length);
+        console.log(res);
+        res.map((user) => {
+          age = age + user.age;
+        });
+        setAge(age);
+      })
+      .catch((err) => console.log(err));
+  }, []);
+
   const dd = () => {
     return (
       <div>
@@ -78,7 +99,13 @@ export default function AdminDashboard() {
       <div>
         {dd()}
         {adminLeftSide()}
-        <h1 className="text-center pt-4">Admin Dashboard</h1>
+        <h1 className=" text-center pt-4">Admin Dashboard</h1>
+        <p className="text-center" style={{ color: "red" }}>
+          Number of users {num}
+        </p>
+        <p className="text-center" style={{ color: "red" }}>
+          Avg age of users {parseInt(age / num)}
+        </p>
         <div className="container-fluid py-3">
           <div className="row">
             <div className="col-12 col-md-6">
