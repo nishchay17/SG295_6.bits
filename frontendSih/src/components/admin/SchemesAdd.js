@@ -32,7 +32,7 @@ const SchemesAdd = () => {
     createdScheme,
   } = scheme;
 
-  const [error, setError] = useState(false);
+  const [error, setError] = useState("");
   const [success, setSuccess] = useState(false);
 
   const handleChange = (name) => (event) => {
@@ -60,24 +60,43 @@ const SchemesAdd = () => {
       createScheme(token, scheme).then((data) => {
         console.log(data);
         if (data?.error) {
-          setError(true);
+          setError("error");
         } else {
-          if (data.status === "true") setSuccess(true);
-          else setError("Duplicate Scheme");
-          setScheme({
-            ...scheme,
-            createdScheme: name,
-            name: "",
-            type: "",
-            eligibilityIncome: "",
-            eligibilityCaste: "0",
-            state: "0",
-            eligibilityAgeUpperBound: "",
-            eligibilityAgeLowerBound: "",
-            description: "",
-            url: "",
-            gender: "0",
-          });
+          if (data.status === "true") {
+            setSuccess(true);
+            setError("");
+            setScheme({
+              ...scheme,
+              createdScheme: name,
+              name: "",
+              type: "",
+              eligibilityIncome: "",
+              eligibilityCaste: "0",
+              state: "0",
+              eligibilityAgeUpperBound: "",
+              eligibilityAgeLowerBound: "",
+              description: "",
+              url: "",
+              gender: "0",
+            });
+          } else {
+            setError("Duplicate Scheme");
+            setSuccess(false);
+            setScheme({
+              ...scheme,
+              createdScheme: "",
+              name: "",
+              type: "",
+              eligibilityIncome: "",
+              eligibilityCaste: "0",
+              state: "0",
+              eligibilityAgeUpperBound: "",
+              eligibilityAgeLowerBound: "",
+              description: "",
+              url: "",
+              gender: "0",
+            });
+          }
         }
       });
   };

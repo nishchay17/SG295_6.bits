@@ -21,12 +21,14 @@ import "./App.css";
 import ApplicationReview from "./components/admin/ApplicationReview";
 import ApplicationUpdate from "./components/admin/ApplicationUpdate";
 import NavMobile from "./components/NavMobile";
-
+import Carousel from "./components/Carousel";
+import NavMobileTop from "./components/NavMobileTop";
 function App() {
   return (
     <Router>
       <Nav />
-      {/* <Route path="/" exact component={Carousel} /> */}
+      <NavMobileTop />
+      <Route path="/" exact component={Carousel} />
       {/* <Route path="/" exact component={HowTo} /> */}
       <Route path="/" exact component={AllSchemes} />
       <Route path="/about" exact component={About} />

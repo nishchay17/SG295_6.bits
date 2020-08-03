@@ -66,18 +66,22 @@ export default function Scheme({ match }) {
   const onclick = () => {
     ApplyIt(token, match.params.id)
       .then((res) => {
-        setSuccess(true);
-        setError(false);
+        if (res.status === false) {
+          setError(true);
+          setSuccess(false);
+        } else if (res.state === true) {
+          setSuccess(true);
+          setError(false);
+        }
       })
       .catch((err) => {
-        setError(true);
-        setSuccess(false);
+        console.log(err);
       });
   };
 
   const card = () => {
     return (
-      <div className="card text-center m-4">
+      <div className="card text-center m-4 my-5 py-5">
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
           <p className="card-text">{description}</p>
@@ -112,11 +116,12 @@ export default function Scheme({ match }) {
       </div>
     );
   };
+
   const successMessage = () => {
     return (
       <div
         className="alert alert-success mt-3"
-        style={{ display: success ? "" : "none" }}
+        style={{ display: success === true ? "" : "none" }}
       >
         Appiled!
       </div>
@@ -126,15 +131,15 @@ export default function Scheme({ match }) {
     return (
       <div
         className="alert alert-danger mt-3"
-        style={{ display: error ? "" : "none" }}
+        style={{ display: error === true ? "" : "none" }}
       >
-        Error, try again.
+        Already Register
       </div>
     );
   };
 
   return (
-    <div className="container">
+    <div className="container my-5 py-5">
       {errorMessage()}
       {successMessage()}
       <h1 className="m-4">Scheme Details</h1>

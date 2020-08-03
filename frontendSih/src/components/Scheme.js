@@ -75,7 +75,7 @@ export default function Scheme({ match }) {
   const card = () => {
     return (
       <div
-        className="card text-center m-4"
+        className="card text-center m-5"
         style={{ backgroundColor: "#bef7f7" }}
       >
         <div className="card-body">
@@ -107,7 +107,7 @@ export default function Scheme({ match }) {
   };
 
   return (
-    <div className="container">
+    <div className="container py-4">
       <h1 className="m-4">{t("Scheme Details")}</h1>
       {card()}
     </div>

@@ -20,30 +20,6 @@ const Nav = ({ history }) => {
   };
   return (
     <div>
-      <ul className="nav nav-tabs d-none d-flex d-md-none fixed-top bg-white border">
-        <li className="navbar-brand ml-2">Scheme App</li>
-        <div className="btn-group ml-auto mr-3 border">
-          <button
-            className="btn btn-primary btn-sm "
-            onClick={() => handleClick("en")}
-          >
-            English
-          </button>
-          <button
-            className="btn btn-primary btn-sm"
-            onClick={() => handleClick("hi")}
-          >
-            हिन्दी
-          </button>
-          <button
-            className="btn btn-primary btn-sm"
-            onClick={() => handleClick("ne")}
-          >
-            नेपाली
-          </button>
-        </div>
-      </ul>
-
       <ul
         className="nav nav-tabs d-none d-flex d-md-none fixed-bottom bg-white"
         style={{ border: "black 2px solid" }}

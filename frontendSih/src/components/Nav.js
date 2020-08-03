@@ -105,10 +105,10 @@ const Nav = ({ history }) => {
             English
           </button>
           <button className="btn btn-primary" onClick={() => handleClick("hi")}>
-            {t("Hindi")}
+            हिन्दी
           </button>
           <button className="btn btn-primary" onClick={() => handleClick("ne")}>
-            {t("Nepali")}
+            नेपाली
           </button>
         </div>
       </ul>
