@@ -69,7 +69,8 @@ export default function Scheme({ match }) {
         if (res.status === false) {
           setError(true);
           setSuccess(false);
-        } else if (res.state === true) {
+        } else {
+          console.log("here");
           setSuccess(true);
           setError(false);
         }
