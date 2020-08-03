@@ -12,7 +12,7 @@ const data = {
       hoverBackgroundColor: "orange",
       hoverBorderColor: "rgba(255,99,132,1)",
       data: [3, 5, 4],
-      backgroundColor: ["red", "yellow", "green"],
+      backgroundColor: ["#e74c3c", "#f1c40f", "#2ecc71"],
     },
   ],
 };
