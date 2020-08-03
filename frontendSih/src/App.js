@@ -10,6 +10,7 @@ import AdminRoute from "./components/helper/AdminRoutes";
 import ProtectedRoutes from "./components/helper/ProtectedRoutes";
 import AdminDashboard from "./components/admin/AdminDashboard";
 import AllSchemesAdmin from "./components/admin/AllSchemesAdmin";
+import ApplyForUser from "./components/admin/ApplyForUser";
 import SchemesUpdate from "./components/admin/SchemesUpdate";
 import SchemesAdd from "./components/admin/SchemesAdd";
 import Scheme from "./components/Scheme";
@@ -41,6 +42,7 @@ function App() {
       <AdminRoute path="/admin/scheme/all" exact component={AllSchemesAdmin} />
       <AdminRoute path="/review" exact component={ApplicationReview} />
       <AdminRoute path="/review/:id" exact component={ApplicationUpdate} />
+      <AdminRoute path="/applyforuser" exact component={ApplyForUser} />
       <AdminRoute
         path="/admin/scheme/update/:id"
         exact

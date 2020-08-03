@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import LineDemo from "./ChartDummy";
+import BarChart from "./BarChart";
+import PieChart from "./PieChart";
+import PieChartCaste from "./PieChartCaste";
 
 export default function AdminDashboard() {
   const dd = () => {
@@ -53,6 +57,15 @@ export default function AdminDashboard() {
                 Review Application
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                style={{ color: "black" }}
+                to="/applyforuser"
+              >
+                Apply for user
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
@@ -64,7 +77,35 @@ export default function AdminDashboard() {
       <div>
         {dd()}
         {adminLeftSide()}
-        <h1 className="text-center pt-4">Hello Admin</h1>
+        <h1 className="text-center pt-4">Admin Dashboard</h1>
+        <div className="container-fluid py-3">
+          <div className="row">
+            <div className="col-12 col-md-6">
+              <LineDemo />
+            </div>
+            <div className="col-12 col-md-6">
+              <BarChart />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12 col-md-6">
+              <PieChart />
+            </div>
+            <div className="col-12 col-md-6">
+              <PieChartCaste />
+            </div>
+          </div>
+        </div>
+        <div className="container my-5">
+          <div className="row">
+            <div className="col-12 col-md-6 p-3">
+              <h5 className="alert alert-danger">Alert Area</h5>
+              <div className="h6">Least Applied District: District 5</div>
+              <div className="h6">Most Applied District: District 4</div>
+            </div>
+            <div className="col-12 col-md-6 p-3">Map area</div>
+          </div>
+        </div>
       </div>
     </div>
   );
